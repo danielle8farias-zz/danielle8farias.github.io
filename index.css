@@ -20,7 +20,7 @@ section {
     background: var(--color-black);
     border-radius: 10px;
     padding: 15px;
-    width: 1000px;
+    width: 980px;
     margin: auto;
     box-shadow: 15px 15px 10px rgba(11, 10, 13, 0.7);
 }
@@ -43,4 +43,19 @@ footer {
 
 div {
     text-align: center;
+}
+
+
+/* mobile */
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    section {
+        width: 500px;
+    }
+    
+}
+@media screen and (min-width: 320px) and (max-width: 670px) {
+    section {
+        width: 300px;
+    }
+    
 }
