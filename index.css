@@ -29,9 +29,19 @@ section #apresentacao {
     padding: 10px;
 }
 
+section #icones {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
 .imagens-svg {
     width: 80px;
     height: 80px;
+}
+
+#twitter-icon {
+    width: 62px;
 }
 
 footer {
