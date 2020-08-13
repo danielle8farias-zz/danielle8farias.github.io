@@ -29,12 +29,28 @@ section .meu-avatar{
     width: 200px;
     height: 200px;
     margin: 0 auto;
+    position: relative;
 }
 
 .meu-avatar img {
     width: 180px;
     height: 180px;
     border-radius: 50%;
+    display: inline-block;
+}
+
+.meu-avatar #foto {
+    display: none;
+    position: absolute;
+    left: 10%;
+}
+
+.meu-avatar:hover #foto{
+    display: inline;
+}
+
+.meu-avatar:hover #avatar {
+    display: none;
 }
 
 section #apresentacao {
