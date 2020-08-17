@@ -70,6 +70,12 @@ section #icones {
 
 #twitter-icon {
     width: 62px;
+    padding-left: 5px;
+}
+
+#github-icon {
+    width: 67px;
+    padding-left: 13px;
 }
 
 footer {
