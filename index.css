@@ -78,6 +78,11 @@ section #icones {
     padding-left: 13px;
 }
 
+#devto-icon {
+    width: 60px;
+    padding-left: 15px;
+}
+
 footer {
     padding: 10px;
     font: normal 10pt Arial;
