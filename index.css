@@ -5,7 +5,7 @@
   }
   
 body {
-    background-color: var(--color-black);
+    background: #292929 url(img/random-grey-variations.png);
     margin: 0 auto;
     color: var(--color-green);
 }
