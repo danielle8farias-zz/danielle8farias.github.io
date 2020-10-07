@@ -89,6 +89,7 @@ section #icones {
 }
 
 a {
+    text-decoration: none;
     color: green;
 }
 
