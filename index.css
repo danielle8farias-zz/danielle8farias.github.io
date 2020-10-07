@@ -88,6 +88,10 @@ section #icones {
     padding-left: 18px;
 }
 
+a {
+    color: green;
+}
+
 footer {
     padding: 10px;
     font: normal 10pt Arial;
