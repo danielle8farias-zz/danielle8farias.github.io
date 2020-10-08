@@ -6,7 +6,6 @@ body {
 header {
     background-color: #222;
     border-color: #080808;
-    font-family: "Ubuntu", sans-serif;
     padding: 0 5px;
     border-top: 3px #3CA2A2 solid;
     border-bottom: 1px #000000 solid;    
@@ -14,19 +13,23 @@ header {
 }
 
 h1 {
-    font: bolder 36pt Arial;
+    font-weight: bolder;
+    font-size: 36pt;
+    font-family: "Ubuntu", sans-serif;    
     text-align: center;
     color: #fff;
+
 }
 
 section {
-    font: normal 15pt Arial;
-    background: var(--color-black);
-    border-radius: 10px;
-    padding: 15px;
+    background-color: #39393a;
+    box-shadow: 0 0 0 0, 0 8px 16px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    padding: 20px;
+    font-size: 16px;
     width: 980px;
     margin: auto;
-    box-shadow: 15px 15px 10px rgba(11, 10, 13, 0.7);
+
 }
 
 section .meu-avatar{
@@ -43,22 +46,12 @@ section .meu-avatar{
     display: inline-block;
 }
 
-.meu-avatar #foto {
-    display: none;
-    position: absolute;
-    left: 10%;
-}
-
-.meu-avatar:hover #foto{
-    display: inline;
-}
-
-.meu-avatar:hover #avatar {
-    display: none;
-}
-
 section #apresentacao {
     padding: 10px;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    color: #52B54B;
 }
 
 section #icones {
