@@ -58,6 +58,11 @@ section #apresentacao {
     font-weight: bold;
     font-family: "Ubuntu", sans-serif;
     color: #52B54B;
+    z-index: 1;
+    border-width: 1px 0;
+    border-color: #666666;
+    border-style: solid;
+    margin: 0 0 20px;
 }
 
 
