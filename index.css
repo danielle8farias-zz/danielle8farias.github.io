@@ -3,6 +3,7 @@ body {
     margin: 0 auto;
 }
 
+
 header {
     background-color: #222;
     border-color: #080808;
@@ -12,6 +13,7 @@ header {
     margin-bottom: 15px;
 }
 
+
 h1 {
     font-weight: bolder;
     font-size: 36pt;
@@ -20,6 +22,7 @@ h1 {
     color: #fff;
 
 }
+
 
 section {
     background-color: #39393a;
@@ -32,6 +35,7 @@ section {
 
 }
 
+
 section .meu-avatar{
     width: 200px;
     height: 200px;
@@ -39,12 +43,14 @@ section .meu-avatar{
     position: relative;
 }
 
+
 .meu-avatar img {
     width: 180px;
     height: 180px;
     border-radius: 50%;
     display: inline-block;
 }
+
 
 section #apresentacao {
     padding: 10px;
@@ -54,36 +60,6 @@ section #apresentacao {
     color: #52B54B;
 }
 
-section #icones {
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-}
-
-.imagens-svg {
-    width: 80px;
-    height: 80px;
-}
-
-#twitter-icon {
-    width: 62px;
-    padding-left: 5px;
-}
-
-#github-icon {
-    width: 67px;
-    padding-left: 13px;
-}
-
-#devto-icon {
-    width: 60px;
-    padding-left: 15px;
-}
-
-#insta-icon {
-    width: 68px;
-    padding-left: 18px;
-}
 
 a {
     text-decoration: none;
