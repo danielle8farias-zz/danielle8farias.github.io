@@ -71,27 +71,6 @@ div.texto {
 }
 
 
-/* mostrar texto ao passar o mouse */
-[data-tooltip] {
-    position: relative;
-    font-weight: bold;
-}
-  
-[data-tooltip]:after {
-    display: none;
-    padding: 5px;
-    border-radius: 3px;
-    content: attr(data-tooltip);
-    white-space: nowrap;
-    background-color: rgba(82, 181, 75, 0.5);
-    color: White;
-}
-  
-[data-tooltip]:hover:after {
-    display: block;
-}
-
-
 a:link {
     color: #52B54B;
     text-decoration: none;
@@ -104,6 +83,29 @@ a:hover {
 
 a:visited {
     color: purple;
+}
+
+
+/* mostrar texto ao passar o mouse */
+[data-tooltip] {
+    position: relative;
+    font-weight: bold;
+}
+
+[data-tooltip]:after {
+    display: none;
+    padding: 5px;
+    border-radius: 3px;
+    content: attr(data-tooltip);
+    white-space: nowrap;
+    background-color: rgba(82, 181, 75, 0.5);
+    color: White;
+    transition: all .5s ease;
+}
+
+[data-tooltip]:hover:after {
+    display: block;
+    transition: 1s;
 }
 
 
