@@ -1,6 +1,7 @@
 body {
     background: #292929 url(img/random-grey-variations.png);
     margin: 0 auto;
+    color: #fff;
 }
 
 
@@ -16,7 +17,7 @@ header {
 
 h1 {
     font-weight: bolder;
-    font-size: 36pt;
+    font-size: 34pt;
     font-family: "Ubuntu", sans-serif;    
     text-align: center;
     color: #fff;
@@ -29,7 +30,7 @@ section {
     box-shadow: 0 0 0 0, 0 8px 16px rgba(0,0,0,0.2);
     border-radius: 6px;
     padding: 20px;
-    font-size: 16px;
+    font-size: 14pt;
     width: 980px;
     margin: auto;
 
@@ -66,10 +67,41 @@ section #apresentacao {
 }
 
 
-a {
-    text-decoration: none;
-    color: green;
+/* mostrar texto ao passar o mouse */
+[data-tooltip] {
+    position: relative;
+    font-weight: bold;
 }
+  
+[data-tooltip]:after {
+    display: none;
+    padding: 5px;
+    border-radius: 3px;
+    content: attr(data-tooltip);
+    white-space: nowrap;
+    background-color: rgba(82, 181, 75, 0.5);
+    color: White;
+}
+  
+[data-tooltip]:hover:after {
+    display: block;
+}
+
+
+a:link {
+    color: #52B54B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: purple;
+}
+
 
 footer {
     padding: 10px;
