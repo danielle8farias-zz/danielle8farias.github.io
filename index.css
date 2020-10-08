@@ -1,18 +1,22 @@
-:root { 
-    --color-black: rgb(17, 17, 22);     /*Preto*/  
-    --color-green: rgb(13, 94, 13);       /*verde*/
-    --color-gray: rgb(135, 134, 139);   /*cinza*/
-  }
-  
 body {
     background: #292929 url(img/random-grey-variations.png);
     margin: 0 auto;
-    color: var(--color-green);
 }
 
 header {
-    font: normal 20pt Arial;
+    background-color: #222;
+    border-color: #080808;
+    font-family: "Ubuntu", sans-serif;
+    padding: 0 5px;
+    border-top: 3px #3CA2A2 solid;
+    border-bottom: 1px #000000 solid;    
+    margin-bottom: 15px;
+}
+
+h1 {
+    font: bolder 36pt Arial;
     text-align: center;
+    color: #fff;
 }
 
 section {
