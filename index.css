@@ -98,14 +98,12 @@ a:visited {
     border-radius: 3px;
     content: attr(data-tooltip);
     white-space: nowrap;
-    background-color: rgba(82, 181, 75, 0.5);
-    color: White;
-    transition: all .5s ease;
+    background-color: rgba(82, 181, 75, 0.3);
+    color: #fff;
 }
 
 [data-tooltip]:hover:after {
     display: block;
-    transition: 1s;
 }
 
 
