@@ -2,13 +2,13 @@
 
 @media screen and (min-width: 700px) and (max-width: 900px) {
     section {
-        width: 500px;
+        width: auto;
     }
     
 }
 @media screen and (min-width: 320px) and (max-width: 670px) {
     section {
-        width: 300px;
+        width: auto;
     }
     
 }
