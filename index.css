@@ -19,7 +19,7 @@ header {
 h1 {
     font-weight: bolder;
     font-size: 34pt;
-    font-family: "Ubuntu", sans-serif;    
+    font-family: 'Source Code Pro', monospace;
     text-align: center;
     color: #fff;
 }
@@ -52,11 +52,11 @@ section .meu-avatar{
 }
 
 
-section #apresentacao {
+div.apresentacao {
     padding: 10px;
     font-size: 14pt;
     font-weight: bold;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #52B54B;
     z-index: 1;
     border-width: 1px 0;
@@ -65,47 +65,52 @@ section #apresentacao {
     margin: 0 0 20px;
 }
 
+.tooltip {
+    position: relative;
+}
+
+.tooltip-texto {
+    visibility: hidden;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    padding: 4px;
+    opacity: 0;
+    transition: opacity 0.4s;
+    font-size: 11pt;
+}
+
+.tooltip:hover .tooltip-texto{
+    visibility: visible;
+    opacity: 1;
+}
 
 div.texto {
     color: #fff;
+    font-family: 'Baloo 2', cursive;
 }
 
+nav {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
 
 a:link {
-    color: #52B54B;
+    color: #cfd6ea;
     text-decoration: none;
 }
 
 a:hover {
-    color: #fff;
+    color: #7d7e75;
     text-decoration: underline;
 }
 
 a:visited {
-    color: purple;
+    color: #4f5d2f;
 }
-
-
-/* mostrar texto ao passar o mouse */
-[data-tooltip] {
-    position: relative;
-    font-weight: bold;
-}
-
-[data-tooltip]:after {
-    display: none;
-    padding: 5px;
-    border-radius: 3px;
-    content: attr(data-tooltip);
-    white-space: nowrap;
-    background-color: rgba(82, 181, 75, 0.3);
-    color: #fff;
-}
-
-[data-tooltip]:hover:after {
-    display: block;
-}
-
 
 footer {
     padding: 10px;
